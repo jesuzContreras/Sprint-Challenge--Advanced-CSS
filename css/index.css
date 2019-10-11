@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+header div {
+  display: flex;
+  justify-content: center;
+}
+header div nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 2%;
+}
+header div nav a {
+  text-decoration: none;
+  color: #5e6164;
+  font-size: 1.6rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +231,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 2rem;
+  color: white;
+  padding: 5px 10px;
+  background-color: #23293b;
+  width: 30%;
+  text-align: center;
+  border-radius: 8px;
 }
 .home .walk .walk-img {
   width: 46%;
