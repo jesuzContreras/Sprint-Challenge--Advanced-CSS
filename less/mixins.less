@@ -1,12 +1,19 @@
 // Mixins Here
 
 //button mixin
-.buttons(){
-        font-size: 2rem;
-        color: white;
+.buttons(@color, @size){
+        font-size: @size;
+        color: @color;
         padding: 5px 10px;
         background-color: @header-font-color;
         width: 30%;
         text-align: center;
         border-radius: 8px;
+}
+
+.flexbox(@justify, @align, @direction){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
 }
