@@ -179,7 +179,7 @@ header .navigation nav {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 75%;
   margin-bottom: 2%;
 }
 header .navigation nav a {
@@ -274,8 +274,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn a {
-    width: 100%;
-    padding: 20px 155px;
+    margin-top: 2%;
+    padding: 10% 40%;
   }
 }
 .home .walk .walk-text .btn a:hover {
@@ -290,6 +290,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
+    margin-left: 0;
   }
 }
 .home .walk .walk-img img {
